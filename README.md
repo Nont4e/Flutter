@@ -1,2 +1,2 @@
 # Flutter / Dart Application
-## The Flutter and datr application assignment in the wireless computing class
+ The Flutter and dart application assignment in the wireless computing class
