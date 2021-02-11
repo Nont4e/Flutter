@@ -8,12 +8,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'List View',
+      title: 'MovieShop',
       theme: ThemeData(
-          primarySwatch: Colors.teal
+          primarySwatch: Colors.amber
       ),
       home: Scaffold(
-        appBar: AppBar(title: Text('ListView'),),
+        appBar: AppBar(title: Text('Movie Shopee'),),
         body: BodyLayout(),
       ),
     );
@@ -153,7 +153,7 @@ class _PriceState extends State<BodyLayout>{
         ),
         ListTile(
           title: Text('Total Price: $total฿'),
-          tileColor: Colors.teal,
+          tileColor: Colors.amberAccent,
         ),
       ],
     );
